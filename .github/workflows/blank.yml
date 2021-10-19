@@ -1,0 +1,24 @@
+name: Sync translations
+
+on:
+#  push:
+#    paths:
+#      - 'translations/**.json'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v2
+
+      - name: Sync translations
+        run: |
+            cd .github/workflows
+            node .
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Synchronised translations
+          commit_user_name: williamd5
+          commit_user_email: willduncannn@gmail.com

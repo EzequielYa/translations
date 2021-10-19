@@ -6,5 +6,13 @@
   "de": {
     "name": "Deutsch",
     "icon": "https://git.cloudnode.pro/raw/circle-flags/flags/de.svg"
+  },
+  "ru": {
+    "name": "Русский",
+    "icon": "https://git.cloudnode.pro/raw/circle-flags/flags/ru.svg"
+  },
+  "pl": {
+    "name": "Polski",
+    "icon": "https://git.cloudnode.pro/raw/circle-flags/flags/pl.svg"
   }
 }
